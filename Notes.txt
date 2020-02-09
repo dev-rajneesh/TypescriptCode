@@ -1,0 +1,24 @@
+ES 6 features
+
+- Scope Definition
+	Late keyword 
+- Datatypes
+- Collections
+- Template string
+- Arrow Operator
+- OOPs
+- Modules
+- Promises
+
+ES6 Languages
+- High-Level javascript aka Modern Javascript
+	React.jcs. Redux (flux concept), Vue.js
+- Typescript
+	Angular
+- Dart 
+
+------------------------------------------------------
+Typescript language features http://www.typescriptlang.org/ 
+------------------------------------------------------
+HOMEWORK
+Read about array methods on W3Schools.com

@@ -1,0 +1,10 @@
+var fname = "Rajneesh";
+var mname = "Khushal";
+var lname = "Barapatre";
+console.log('Traditional Concatanation ' + fname + ' ' + mname + ' ' + lname);
+console.log('ES6 String concatenation using Template String');
+var fullname = fname + " " + mname + " " + lname;
+console.log(fullname);
+console.log('Upper case: ', fullname.toUpperCase());
+console.log('Lower case ', fullname.toLowerCase());
+console.log('Length ', fullname.length);
