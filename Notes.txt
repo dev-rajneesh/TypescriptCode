@@ -1,24 +1,117 @@
-ES 6 features
+https://github.com/maheshsabnis/tssoftagejan2020 
 
-- Scope Definition
-	Late keyword 
-- Datatypes
-- Collections
-- Template string
-- Arrow Operator
-- OOPs
-- Modules
-- Promises
+ES 6 Features
 
-ES6 Languages
-- High-Level javascript aka Modern Javascript
-	React.jcs. Redux (flux concept), Vue.js
-- Typescript
-	Angular
-- Dart 
+Scope definition
+DataTypes
+Collections
+Template String
+Arrow Operator
+DeStructuring
+Object Oriented Programming
+Modules
+Promises ============================================================================================== ES 6 Languages
+High-Level JavaScript aka Modern JavaScript aka ES 6
+React.js, Redux, Vue.js
+TypeScript
+Angular
+Dart
+==============================================================================================
 
-------------------------------------------------------
-Typescript language features http://www.typescriptlang.org/ 
-------------------------------------------------------
-HOMEWORK
-Read about array methods on W3Schools.com
+TypeScript Language Features, https://www.typescriptlang.org
+
+Scope definition
+The 'let' keyword used to define a scope of vaiable in a block
+DataTypes
+number --> integer and floating-point values
+string --> string data type and string object, having access to string methods
+object
+methods
+assign() --> cloaning the object
+rest parameters
+... like params keyword in C#
+date
+boolean
+Array --> [] datatype and Array object, having access to array methods
+type --> type of the declaration
+void --> not return anything
+any --> late binding
+union types --> variable will be declared with more than one data type but fix data types, no-late-binding
+Collections
+Array
+properties
+length
+methods
+push(), pop()
+iteration methods
+foreach(), map()
+array manipulation methods
+find() --> ES 6 JavaScript and not directly in TS
+filter() --> returns an array based on condition
+indexOf() --> Index of an element in array
+splice() --> remove an element from array
+slice() --> divide an array into multiple arrays
+shift() and unShift() --> index based array adjustment
+Set with WeakSet (ES 6 in JavaScript, but community TS implementation)
+Map with WeabMap (ES 6 in JavaScript, but community TS implementation)
+itarations aka loops
+for..loop
+for..in --> simplification of for..loop
+for..of loop --> real iteration in ES 6
+while and do..while
+Template String
+Known as HTML parsed strings
+Expression based string concatinations
+Arrow Operator
+like Lambda expression =>
+used when a function accepts callback as input parameter
+DeStructuring
+syntax for object creations
+used for array index definitions
+Object Oriented Programming
+class
+Access Specifiers
+public --> default for class members
+private
+protected
+constructor
+constructor() is a method
+parameterized ctor
+private ctor parameters --> scoped to ctor and class
+public ctor parameters ---> scoped to ctor, class and like public data memebrs of class
+access modifiers
+static
+methods
+inheritence
+extends keyword
+no ocerloading
+no overrriding
+interface
+uses implements keyword
+Generics
+Class, interface, members and method
+Modules
+Used for code-splitting e.g. namespaces
+export is a keyword to export class, interface, array and function as a module
+import is a keyword to import exported declarations
+Promises
+Async and await
+=============================================================================================== Installing TypeScript
+
+npm install -g typescript command
+
+npm is Node-Package-Manafger, the tools installed with Node.js --> https://www.nodejs.org
+
+-g is in global scope (machine scope)
+
+npm install -g typescript command will provide the 'tsc' Command line tool
+
+The 'tsc' tool traspiles(?) the TypeScript into JavaScript
+
+traspiler --> Transformation with Compilation
+
+e.g. tsc .ts --> generates .js
+
+To execute .js on Node.js server run the following command
+
+node .js
